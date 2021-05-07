@@ -1,6 +1,6 @@
 class CreatePlayerDto {
-  readonly phoneNumber: string;
-  readonly email: string;
   readonly name: string;
+  readonly email: string;
+  readonly phoneNumber: string;
 }
 export { CreatePlayerDto };
